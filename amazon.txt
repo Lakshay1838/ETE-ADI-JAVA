@@ -1,0 +1,20 @@
+EC2 - Scalable virtual servers. Charged based on resources of the virtual servers (RAM, CPU, storage), per hour. Servers 
+        can change their resource allocation but must be restarted to apply them.
+
+Elastic Beanstalk - Ties together EC2, RDS and Elastic Load Balancing with simple configuration and deployment. Its 
+    primary advantage is how it can facilitate the autoscaling of EC2 instances. Billing is based on a combination of the 
+    EC2, RDS and ELB that you use. Deployment is made easy with CLI tools, and we can use rolling deployments so there is no downtime. It has support for several languages including Python, NodeJS, Java and Go.
+
+Route 53
+Elastic Load Balancing
+Elastic Beanstalk with Autoscaling EC2 Group
+
+
+RDS-
+Relational database hosting platform. Charged in the same way as EC2 (i.e. a virtual machine with a set amount of 
+resources). Servers can be resized but must be restarted to do so.
+
+
+S3
+
+CodePipeline
