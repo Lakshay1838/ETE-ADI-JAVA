@@ -1,4 +1,5 @@
 class Result {
+
     static void dfs(int mat[][],int m,int n,int i,int j){
         int[] rows = {-1,0,1,0};
         int[] cols = {0,-1,0,1};
@@ -12,7 +13,8 @@ class Result {
             }
         }
     }
-  static int countIslands(int mat[][], int m, int n){
+  
+    static int countIslands(int mat[][], int m, int n){
     // Write your code here
       int count=0;
       for(int i=0;i<m;i++){
@@ -25,4 +27,5 @@ class Result {
       }
       return count;
   }   
+
 }
